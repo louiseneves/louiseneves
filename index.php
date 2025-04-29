@@ -180,49 +180,22 @@
           </div>
         </div>
       </div>
-      <!-- Projeto 2 - Controle Financeiro -->
+
       <div class="col-12 col-lg-4 mb-4">
   <div class="card projeto-card">
-    <img src="imagens/Controle Financeiro tele home.png" class="card-img-top projeto-img" alt="Controle Financeiro" onerror="this.src='imagens/default.jpg'">
+    <a href="imagens/default.png" target="_blank">
+      <img src="imagens/default.png" class="card-img-top projeto-img" alt="Mais projetos em breve">
+    </a>
     <div class="card-body text-center">
-      <h5 class="card-title">Controle Financeiro</h5>
+      <h5 class="card-title">Mais projetos a caminho!</h5>
       <p class="card-text">
-        Controle Financeiro é um aplicativo mobile desenvolvido em React Native para gerenciamento de finanças pessoais. O app permite registrar receitas e despesas, calcular automaticamente o saldo atual e oferece uma função para calcular o dízimo. Além disso, conta com integração ao Firebase para autenticação e armazenamento dos dados do usuário e Stripe para gestão do plano premium. O backend foi hospedado no Heroku. Futuramente, serão feitas melhorias no cálculo de dízimo para permitir maior personalização e na gestão de assinaturas premium.
+        Estou trabalhando em novos projetos e em breve eles estarão disponíveis aqui.<br>
+        Enquanto novos projetos estão sendo desenvolvidos, confira o projeto publicado ao lado.
       </p>
-      <div class="tecnologias mb-3">
-        <span class="tech-tag">React Native</span>
-        <span class="tech-tag">Firebase</span>
-        <span class="tech-tag">Stripe</span>
-        <span class="tech-tag">Heroku</span>
-      </div>
-      <div class="botoes">
-        <a href="https://github.com/louiseneves/controle-financeiro" class="btn-icon" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
-        <a href="https://imcexpress.netlify.app/" class="btn-icon" target="_blank" aria-label="Ver Projeto"><i class="fas fa-globe"></i></a>
-      </div>
     </div>
   </div>
 </div>
-      <!-- Projeto 3 - Jogo da Memória -->            
-      <div class="col-12 col-lg-4 mb-4">
-        <div class="card projeto-card">
-          <img src="imagens/imc-calculadora.jpg" class="card-img-top projeto-img" alt="Calculadora de IMC" onerror="this.src='imagens/default.jpg'">
-          <div class="card-body text-center">
-            <h5 class="card-title">Calculadora de IMC</h5>
-            <p class="card-text">
-              Uma calculadora simples e intuitiva para calcular o Índice de Massa Corporal (IMC). O usuário insere seu peso e altura, e o sistema retorna o resultado com a classificação correspondente (como "peso ideal", "sobrepeso", etc.).
-            </p>
-            <div class="tecnologias mb-3">
-              <span class="tech-tag">HTML</span>
-              <span class="tech-tag">CSS</span>
-              <span class="tech-tag">JavaScript</span>
-            </div>
-            <div class="botoes">
-              <a href="https://github.com/louiseneves/Calculadora-de-IMC" class="btn-icon" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
-              <a href="https://imcexpress.netlify.app/" class="btn-icon" target="_blank" aria-label="Ver Projeto"><i class="fas fa-globe"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
+ 
     </div>
   </div>
 </section>
