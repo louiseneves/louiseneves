@@ -157,7 +157,7 @@
       <div class="col-12 col-lg-4 mb-4">
         <div class="card projeto-card">
         <a href="imagens/imc-calculadora.jpg" target="_blank">
-          <img src="imagens/imc-calculadora.jpg" class="card-img-top projeto-img" alt="Calculadora de IMC" onerror="this.src='imagens/default.jpg'">
+          <img src="imagens/imc-calculadora.jpg" class="card-img-top projeto-img" alt="Calculadora de IMC" onerror="this.src='imagens/default.png'">
         </a>
           <div class="card-body text-center">
             <h5 class="card-title">Calculadora de IMC</h5>
