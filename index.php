@@ -1,0 +1,249 @@
+<?php include('header.php'); ?>
+
+<section class="apre" id="home">
+  <div class="texto">
+    <p>Olá! Eu sou a <strong>Louise Neves</strong>.</p>
+    <p>Todos os meus projetos desenvolvidos por mim estão aqui.</p>
+    <a href="curriculo/Currículo Louise.pdf" download class="btn-cv">
+      <i class="fas fa-download"></i> Download CV
+    </a>
+  </div>
+  <div class="foto-container">
+    <img src="imagens/foto Louise.jpeg" alt="Foto da Louise" />
+  </div>
+</section>
+
+<section class="sobre" id="sobre">
+  <div class="container_sobre">
+    <h1>Sobre mim</h1>
+    <p>Sou apaixonada por tecnologia e inovação. Formada em Engenharia de Software e cursando pós-graduação em Desenvolvimento FullStack na Descomplica. Estou buscando uma oportunidade como desenvolvedora júnior.</p>
+  </div>
+</section>
+
+<section class="habilidade" id="habilidades">
+  <div class="container_habilidade">
+    <h1>Habilidades</h1>
+    <div class="accordion" id="accordionHabilidades">
+
+      <!-- Front-end -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#frontend">
+            Front-end
+          </button>
+        </h2>
+        <div id="frontend" class="accordion-collapse collapse show" data-bs-parent="#accordionHabilidades">
+          <div class="accordion-body">
+            <?php
+              $skillsFront = [
+                ['nome' => 'HTML', 'classe' => 'html', 'porcentagem' => 90],
+                ['nome' => 'CSS', 'classe' => 'css', 'porcentagem' => 85],
+                ['nome' => 'JavaScript', 'classe' => 'javascript', 'porcentagem' => 75],
+                ['nome' => 'Angular', 'classe' => 'angular', 'porcentagem' => 40],
+                ['nome' => 'Bootstrap', 'classe' => 'bootstrap', 'porcentagem' => 75],
+                ['nome' => 'jQuery', 'classe' => 'jquery', 'porcentagem' => 60],
+              ];
+              foreach ($skillsFront as $skill):
+            ?>
+              <div class="skill">
+                <div class="skill-info">
+                  <span class="skill-name"><?= $skill['nome'] ?></span>
+                  <span class="skill-percent"><?= $skill['porcentagem'] ?>%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar <?= $skill['classe'] ?>" style="width: <?= $skill['porcentagem'] ?>%;">
+                    <?= $skill['porcentagem'] ?>%
+                  </div>
+                </div>
+              </div>
+            <?php endforeach; ?>
+          </div>
+        </div>
+      </div>
+
+      <!-- Back-end -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#backend">
+            Back-end
+          </button>
+        </h2>
+        <div id="backend" class="accordion-collapse collapse" data-bs-parent="#accordionHabilidades">
+          <div class="accordion-body">
+            <?php
+              $skillsBack = [
+                ['nome' => 'Node.js', 'classe' => 'node', 'porcentagem' => 65],
+                ['nome' => 'Java', 'classe' => 'java', 'porcentagem' => 70],
+                ['nome' => 'PHP', 'classe' => 'php', 'porcentagem' => 60],
+              ];
+              foreach ($skillsBack as $skill):
+            ?>
+              <div class="skill">
+                <div class="skill-info">
+                  <span class="skill-name"><?= $skill['nome'] ?></span>
+                  <span class="skill-percent"><?= $skill['porcentagem'] ?>%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar <?= $skill['classe'] ?>" style="width: <?= $skill['porcentagem'] ?>%;">
+                    <?= $skill['porcentagem'] ?>%
+                  </div>
+                </div>
+              </div>
+            <?php endforeach; ?>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#mobile">
+            Mobile
+          </button>
+        </h2>
+        <div id="mobile" class="accordion-collapse collapse" data-bs-parent="#accordionHabilidades">
+          <div class="accordion-body">
+            <div class="skill">
+              <div class="skill-info">
+                <span class="skill-name">React Native</span>
+                <span class="skill-percent">60%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar rn" style="width: 60%;">60%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Ferramentas -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ferramentas">
+            Ferramentas
+          </button>
+        </h2>
+        <div id="ferramentas" class="accordion-collapse collapse" data-bs-parent="#accordionHabilidades">
+          <div class="accordion-body">
+            <div class="skill">
+              <div class="skill-info">
+                <span class="skill-name">VS Code</span>
+                <span class="skill-percent">80%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar vscode" style="width: 80%;">80%</div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-info">
+                <span class="skill-name">Firebase</span>
+                <span class="skill-percent">50%</span>
+              </div>
+              <div class="progress">
+                <div class="progress-bar firebase" style="width: 50%;">50%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="projeto" id="projeto">
+  <div class="container_projeto">
+    <h1 class="titulo-projeto">Projetos</h1>
+    <div class="row">
+      <div class="col-12 col-lg-4 mb-4">
+        <div class="card projeto-card">
+        <a href="imagens/imc-calculadora.jpg" target="_blank">
+          <img src="imagens/imc-calculadora.jpg" class="card-img-top projeto-img" alt="Calculadora de IMC" onerror="this.src='imagens/default.jpg'">
+        </a>
+          <div class="card-body text-center">
+            <h5 class="card-title">Calculadora de IMC</h5>
+            <p class="card-text">
+              Projeto que calcula o Índice de Massa Corporal (IMC) de acordo com o peso e a altura informados pelo usuário. Desenvolvido com HTML, CSS e JavaScript para praticar lógica e interatividade no front-end.
+            </p>
+            <div class="tecnologias mb-3">
+              <span class="tech-tag">HTML</span>
+              <span class="tech-tag">CSS</span>
+              <span class="tech-tag">JavaScript</span>
+            </div>
+            <div class="botoes">
+              <a href="https://github.com/louiseneves/Calculadora-de-IMC" class="btn-icon" target="_blank" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://imcexpress.netlify.app/" class="btn-icon" target="_blank" aria-label="Ver Projeto">
+                <i class="fas fa-globe"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Projeto 2 - Controle Financeiro -->
+      <div class="col-12 col-lg-4 mb-4">
+  <div class="card projeto-card">
+    <img src="imagens/Controle Financeiro tele home.png" class="card-img-top projeto-img" alt="Controle Financeiro" onerror="this.src='imagens/default.jpg'">
+    <div class="card-body text-center">
+      <h5 class="card-title">Controle Financeiro</h5>
+      <p class="card-text">
+        Controle Financeiro é um aplicativo mobile desenvolvido em React Native para gerenciamento de finanças pessoais. O app permite registrar receitas e despesas, calcular automaticamente o saldo atual e oferece uma função para calcular o dízimo. Além disso, conta com integração ao Firebase para autenticação e armazenamento dos dados do usuário e Stripe para gestão do plano premium. O backend foi hospedado no Heroku. Futuramente, serão feitas melhorias no cálculo de dízimo para permitir maior personalização e na gestão de assinaturas premium.
+      </p>
+      <div class="tecnologias mb-3">
+        <span class="tech-tag">React Native</span>
+        <span class="tech-tag">Firebase</span>
+        <span class="tech-tag">Stripe</span>
+        <span class="tech-tag">Heroku</span>
+      </div>
+      <div class="botoes">
+        <a href="https://github.com/louiseneves/controle-financeiro" class="btn-icon" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://imcexpress.netlify.app/" class="btn-icon" target="_blank" aria-label="Ver Projeto"><i class="fas fa-globe"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
+      <!-- Projeto 3 - Jogo da Memória -->            
+      <div class="col-12 col-lg-4 mb-4">
+        <div class="card projeto-card">
+          <img src="imagens/imc-calculadora.jpg" class="card-img-top projeto-img" alt="Calculadora de IMC" onerror="this.src='imagens/default.jpg'">
+          <div class="card-body text-center">
+            <h5 class="card-title">Calculadora de IMC</h5>
+            <p class="card-text">
+              Uma calculadora simples e intuitiva para calcular o Índice de Massa Corporal (IMC). O usuário insere seu peso e altura, e o sistema retorna o resultado com a classificação correspondente (como "peso ideal", "sobrepeso", etc.).
+            </p>
+            <div class="tecnologias mb-3">
+              <span class="tech-tag">HTML</span>
+              <span class="tech-tag">CSS</span>
+              <span class="tech-tag">JavaScript</span>
+            </div>
+            <div class="botoes">
+              <a href="https://github.com/louiseneves/Calculadora-de-IMC" class="btn-icon" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+              <a href="https://imcexpress.netlify.app/" class="btn-icon" target="_blank" aria-label="Ver Projeto"><i class="fas fa-globe"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contato">
+  <div class="container_contato">
+    <h1>Contato</h1>
+    <div class="form_contato">
+     <form action="https://formsubmit.co/louiseneves87@gmail.com" method="POST">
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome" placeholder="Digite seu nome" />
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Digite seu email" />
+        <label for="mensagem">Mensagem</label>
+        <textarea name="mensagem" id="mensagem" rows="8" cols="40" placeholder="Digite sua mensagem..."></textarea>
+        <input type="hidden" name="_next" value="https://louiseneves.github.io/portfolio/obrigado.html">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="submit" name="submit" id="submit" value="Enviar" />
+      </form>
+    </div>
+  </div>
+</section>
+
+<?php include('footer.php'); ?>
