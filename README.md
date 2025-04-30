@@ -4,7 +4,6 @@
 
 Este é o meu portfólio pessoal, desenvolvido com HTML, CSS e Bootstrap, com foco em apresentar meus projetos, habilidades e formas de contato de forma clara e responsiva.
 
-![Portfólio](url_da_imagem_aqui)
 
 ## ✨ Funcionalidades
 
