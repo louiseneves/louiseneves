@@ -39,7 +39,7 @@ Este é o meu portfólio pessoal, desenvolvido com HTML, CSS e Bootstrap, com fo
 
 Você pode acessar o portfólio online pelo link abaixo:
 
-👉 [https://louiseneves.github.io](https://louiseneves.github.io)
+👉 [https://louiseneves.github.io/louiseneves](https://louiseneves.github.io/louiseneves)
 
 ---
 
