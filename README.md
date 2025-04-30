@@ -42,6 +42,8 @@ Você pode acessar o portfólio online pelo link abaixo:
 
 👉 [https://louiseneves.github.io](https://louiseneves.github.io)
 
+---
+
 🧠 Em constante aprendizado | 💼 Aberta a oportunidades | 💻 Apaixonada por tecnologia
 
 ---
