@@ -1,6 +1,6 @@
 # 🌐 Portfólio - Louise Neves
 
-Este é o meu portfólio pessoal, desenvolvido com HTML, CSS, Bootstrap e JavaScript, com foco em apresentar meus projetos, habilidades e formas de contato de forma clara e responsiva.
+Este é o meu portfólio pessoal, desenvolvido com HTML, CSS e Bootstrap, com foco em apresentar meus projetos, habilidades e formas de contato de forma clara e responsiva.
 
 ![Portfólio](url_da_imagem_aqui)
 
@@ -8,9 +8,9 @@ Este é o meu portfólio pessoal, desenvolvido com HTML, CSS, Bootstrap e JavaSc
 
 - Apresentação com foto e botão para download do currículo  
 - Sessão "Sobre Mim"  
-- Accordion interativo com habilidades e níveis de conhecimento  
+- Grid de habilidades com ícones e categorias  
 - Seção de projetos com layout responsivo (mais projetos reais serão adicionados em breve)  
-- Formulário de contato com validação de campos (envio via FormSubmit)  
+- Formulário de contato com validação nativa dos campos (envio via FormSubmit)  
 - Design responsivo, inspirado em referências profissionais
 
 ## ⚙ Tecnologias Utilizadas
@@ -18,8 +18,6 @@ Este é o meu portfólio pessoal, desenvolvido com HTML, CSS, Bootstrap e JavaSc
 - HTML5  
 - CSS3 (customizado)  
 - Bootstrap 5  
-- JavaScript Vanilla  
-- PHP (para estruturação dinâmica)  
 - FormSubmit (para envio de mensagens por e-mail)
 
 ## 📬 Contato
@@ -39,9 +37,9 @@ Este é o meu portfólio pessoal, desenvolvido com HTML, CSS, Bootstrap e JavaSc
 ## 💡 Como Rodar Localmente
 
 1. Clone este repositório  
-2. Coloque os arquivos em um servidor local (como XAMPP, Laragon, etc.)  
-3. Acesse `localhost/portfolio` no navegador
+2. Abra o arquivo `index.html` diretamente no navegador
 
 ---
 
 📌 **Observação:** O envio de mensagens via FormSubmit já está funcional. Novos projetos serão adicionados em breve ao portfólio.
+
