@@ -36,10 +36,13 @@ Este é o meu portfólio pessoal, desenvolvido com HTML, CSS e Bootstrap, com fo
 - [ ] Inserção de mais projetos reais  
 - [ ] Otimizações finais para produção
 
-## 💡 Como Rodar Localmente
+## 🌐 Acesse o Portfólio
 
-1. Clone este repositório  
-2. Abra o arquivo `index.html` diretamente no navegador
+Você pode acessar o portfólio online pelo link abaixo:
+
+👉 [https://louiseneves.github.io](https://louiseneves.github.io)
+
+🧠 Em constante aprendizado | 💼 Aberta a oportunidades | 💻 Apaixonada por tecnologia
 
 ---
 
