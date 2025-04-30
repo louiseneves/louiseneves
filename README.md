@@ -1,6 +1,8 @@
 # 🌐 Portfólio - Louise Neves
 
-Este é o meu portfólio pessoal, desenvolvido com HTML, CSS, Bootstrap, JavaScript e PHP, focado em apresentar meus projetos, habilidades e formas de contato.
+Este é o meu portfólio pessoal, desenvolvido com HTML, CSS, Bootstrap e JavaScript, focado em apresentar meus projetos, habilidades e formas de contato.
+
+![Portfólio](url_da_imagem_aqui)
 
 ## ✨ Funcionalidades
 
