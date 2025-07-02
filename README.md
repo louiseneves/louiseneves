@@ -28,7 +28,7 @@ Este é meu portfólio pessoal, desenvolvido com HTML, CSS e Bootstrap, com foco
 
 ## 📬 Contato
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?logo=linkedin&logoColor=white)](https://linkedin.com/in/louiseneves)  
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?logo=linkedin&logoColor=white)](https://linkedin.com/in/louiseneves87)  
 [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/louiseneves)
 
 ---
