@@ -8,7 +8,8 @@ Este é meu portfólio pessoal, desenvolvido com HTML, CSS e Bootstrap, com foco
 
 ## ✨ Funcionalidades
 
-- Apresentação com foto e botão para download do currículo  
+- Apresentação com foto e botão para download do currículo
+    
 - Seção "Sobre Mim"  
 
 - Grid de habilidades com ícones e categorias  
@@ -43,7 +44,7 @@ Este é meu portfólio pessoal, desenvolvido com HTML, CSS e Bootstrap, com foco
 
 - [x] Layout e responsividade  
 - [x] Design final dos cards de projeto  
-- [x] Envio de mensagens via FormSubmit  
+- [x] Envio de mensagens via FormSubmit (funcional)  
 - [ ] Inserção de mais projetos reais  
 - [ ] Otimizações finais para produção
 
@@ -66,4 +67,4 @@ Se você quiser saber mais, trocar ideias ou oportunidades, estou disponível pa
 ---
 🧠 Em constante aprendizado | 💼 Aberta a oportunidades | 💻 Apaixonada por tecnologia
 
-📌 **Observação:** Envio de mensagens via FormSubmit (funcional). Novos projetos serão adicionados em breve ao portfólio.
+🔗 Confira meu portfólio e me acompanhe nas redes!
