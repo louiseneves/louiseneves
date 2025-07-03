@@ -1,4 +1,4 @@
-# 🌐 Portfólio - Louise Neves
+# 🌐 Portfólio Pessoal - Louise Neves
 
 💼 Portfólio de Louise Neves, desenvolvedora em busca de oportunidade como dev júnior. Projetos, habilidades e contato em um só lugar.
 
@@ -10,9 +10,13 @@ Este é meu portfólio pessoal, desenvolvido com HTML, CSS e Bootstrap, com foco
 
 - Apresentação com foto e botão para download do currículo  
 - Seção "Sobre Mim"  
+
 - Grid de habilidades com ícones e categorias  
+
 - Seção de projetos com layout responsivo (mais projetos reais serão adicionados em breve)  
-- Formulário de contato com validação nativa dos campos (envio via FormSubmit)  
+
+- Formulário de contato com validação nativa dos campos (envio via FormSubmit funcional)  
+
 - Design responsivo, inspirado em referências profissionais
 
 ---
@@ -51,6 +55,15 @@ Este é meu portfólio pessoal, desenvolvido com HTML, CSS e Bootstrap, com foco
 
 ---
 
+## 📫 Vamos conversar?
+
+Se você quiser saber mais, trocar ideias ou oportunidades, estou disponível para contato!
+
+📧 louiseneves87@gmail.com  
+🔗 [LinkedIn](https://linkedin.com/in/louiseneves87)  
+🔗 [GitHub](https://github.com/louiseneves)
+  
+---
 🧠 Em constante aprendizado | 💼 Aberta a oportunidades | 💻 Apaixonada por tecnologia
 
-📌 **Observação:** O envio de mensagens via FormSubmit já está funcional. Novos projetos serão adicionados em breve ao portfólio.
+📌 **Observação:** Envio de mensagens via FormSubmit (funcional). Novos projetos serão adicionados em breve ao portfólio.
