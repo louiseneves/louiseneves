@@ -1,7 +1,6 @@
 # 🌐 Portfólio Pessoal - Louise Neves
 
-💼 Portfólio de Louise Neves, desenvolvedora em busca de oportunidade como dev júnior. Projetos, habilidades e contato em um só lugar.
-
+💼 Portfólio de Louise Neves, Desenvolvedora Full Stack Júnior | HTML, CSS, JavaScript, PHP, Java, MySQL, React Native & Firebase | Projetos práticos com README claros e deploys quando possível.
 Este é meu portfólio pessoal, desenvolvido com HTML, CSS e Bootstrap, com foco em apresentar meus projetos, habilidades e formas de contato de maneira clara e responsiva.
 
 ---
@@ -68,3 +67,4 @@ Se você quiser saber mais, trocar ideias ou oportunidades, estou disponível pa
 🧠 Em constante aprendizado | 💼 Aberta a oportunidades | 💻 Apaixonada por tecnologia
 
 🔗 Confira meu portfólio e me acompanhe nas redes!
+
