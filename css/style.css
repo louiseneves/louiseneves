@@ -1,8 +1,12 @@
 body{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
     background-color: #262626;
   }
+
+  /* Navbar */
+
   .logo{
     text-decoration: none;
     list-style: none;
@@ -17,6 +21,9 @@ body{
   .navbar-nav .nav-link:hover {
     color: #FF8C42;
   }
+
+  /* Seção Apresentação */
+
   .apre {
     display: flex;
     justify-content: space-between;
@@ -55,21 +62,63 @@ body{
     border-radius: 50%;
     object-fit: cover;
   }
+
+  /* Seção Sobre */
+ 
   .sobre {
-    text-align: center;
     color: #fff;
     padding: 60px 20px;
   }
-  
-  .container_sobre p {
-    max-width: 600px;
+
+  .container_sobre {
+    max-width: 800px;
     margin: 0 auto;
-    font-size: 18px;
-    line-height: 1.6;
-  }
+}
+
   .container_sobre h1{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
     color: #FF8C42;
   }
+
+  .sobre p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+  }
+
+.sobre p strong {
+    color: #0066cc;
+    font-weight: 600;
+}
+
+/* Lista de diferenciais */
+.lista-diferenciais {
+    list-style: none;
+    padding-left: 0;
+    margin: 20px 0 30px;
+}
+
+.lista-diferenciais li {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: #ffb07f;
+    padding-left: 30px;
+    position: relative;
+    margin-bottom: 12px;
+}
+
+.lista-diferenciais li:before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #28a745;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+  /* Seção Habilidades */
   .habilidade{
     text-align: center;
     color: #FF8C42;
@@ -133,6 +182,8 @@ body{
     margin-bottom: 5px;
     font-weight: bold;
   }
+
+  /* Seção Projetos */
   .projeto {
     background-color: #262626;
     padding: 60px 20px;
@@ -281,6 +332,8 @@ body{
   .form_contato input[type="submit"]:hover {
     background-color: #155bb5;
   }
+
+  /* Footer */
   footer {
     background-color: #1B71D7;
     padding: 20px 10px;
@@ -315,34 +368,11 @@ body{
     margin: 5px 0;
     font-size: 0.9rem;
   }
-  @media (max-width: 768px) {
-    .nav-list {
-      flex-direction: column;
-      background-color: #1B71D7;
-      position: absolute;
-      top: 70px;
-      right: 20px;
-      display: none;
-    }
-  
-    .nav-list.active {
-      display: flex;
-    }
-  }
-  @media (max-width: 600px) {
-    .apre, .sobre, .habilidade, .container_projeto, .form_contato {
-      padding: 20px;
-    }
-  
-    .texto {
-      font-size: 16px;
-    }
-  
-    .form_contato input, .form_contato textarea {
-      font-size: 0.9rem;
-    }
-  }
-  @media (max-width: 768px) {
+
+  /* Responsivo */
+
+  @media screen and (max-width: 768px) {
+
     .menu-toggle {
       display: block;
     }
@@ -366,9 +396,33 @@ body{
     .nav-list li {
       margin-bottom: 15px;
     }
+
+    .sobre h1 {
+        font-size: 2rem;
+    }
+    
+    .sobre p {
+        font-size: 1rem;
+    }
+    
+    .lista-diferenciais li {
+        font-size: 0.95rem;
+    }
   }
+  @media screen and (max-width: 600px) {
+    .apre, .sobre, .habilidade, .container_projeto, .form_contato {
+      padding: 20px;
+    }
+  
+    .texto {
+      font-size: 16px;
+    }
+  
+    .form_contato input, .form_contato textarea {
+      font-size: 0.9rem;
+    }
+  }
+
   html {
     scroll-behavior: smooth;
   }
-  
-  
