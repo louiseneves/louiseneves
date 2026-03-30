@@ -50,9 +50,8 @@ Plataforma web para pessoas que não gostam de se exercitar, incentivando a moti
 
 ## 📊 GitHub Stats
 
-![Louise's GitHub Stats](https://github-readme-stats.vercel.app/api?username=louiseneves&show_icons=true&theme=tokyonight&hide_border=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=louiseneves&layout=compact&theme=tokyonight&hide_border=true)
-
+[![My Awesome Stats](https://awesome-github-stats.azurewebsites.net/user-stats/louiseneves?cardType=level&theme=radical&fontFamily=&preferLogin=false)](https://git.io/awesome-stats-card)
+![Top Langs](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=louiseneves&theme=tokyonight)
 ---
 
 ## 🙂 Sobre mim
