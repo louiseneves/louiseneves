@@ -38,7 +38,7 @@ Atualmente estou aprofundando meus conhecimentos através dos cursos do **Full S
 
 ## 💻 Projetos em Destaque
 
-### 📱 [Controle Financeiro](https://github.com/louiseneves/controle-financeiro)
+### 📱 [Controle Financeiro](https://play.google.com/store/apps/details?id=com.louiseneves.calculardizimo))
 App mobile em React Native para gerenciamento financeiro pessoal com cálculo automático de dízimo e oferta, modo escuro, internacionalização (PT, EN, ES) e versão premium.
 `React Native` `Expo` `Firebase` `Zustand` `JavaScript`
 
